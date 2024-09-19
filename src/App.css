@@ -34,9 +34,13 @@ ul li {
 }
 
 .footer {
-  background-color: aquamarine;
-  padding: 20px 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(57, 128, 186);
+  padding: 20px;
   text-align: center;
+  color:aliceblue
 }
 
 .product_card {
