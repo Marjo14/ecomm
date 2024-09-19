@@ -5,10 +5,10 @@ import { Product } from '../components/Product'
 const Products = () => {
     const [products, setproducts] = useState(Data)
     return (
+
         <div className='products'>
-            <h2>Produits</h2>
             {products.map((Element) => (
-                <Product key={Element.id} name={Element.name} price={Element.price}/>
+                <Product key={Element.id} name={Element.name} description={Element.description} price={Element.price} />
             ))}
         </div>
     )
