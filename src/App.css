@@ -39,3 +39,13 @@ ul li {
   text-align: center;
 }
 
+.product_card {
+  border: 1px solid cornflowerblue;
+  border-radius:  8px;
+  padding: 16px;
+  margin: 16px;
+  width: 200px;
+  box-shadow: 0 2px rgb(60, 145, 145);
+  transition: 0.3s;
+}
+
