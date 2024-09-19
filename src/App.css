@@ -64,3 +64,15 @@ ul li {
   flex-wrap: wrap;
   padding: 20px;
 }
+
+.nouveautes_products{
+  padding: 20px;
+}
+
+.home h2{
+  
+  border: 1px solid salmon;
+  border-radius: 5px;
+  text-align: center;
+
+}
