@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Winter", "price": 1200, "description":"Dernière génération des Airpods" },
+    { "id": 2, "name": "Summer", "price": 800, "description":"Dernière génération des Airpods" },
+    { "id": 3, "name": "Fall", "price": 150, "description":"Dernière génération des Airpods" },
+    { "id": 4, "name": "Spring", "price": 300, "description":"Dernière génération des Airpods" },
+    { "id": 5, "name": "Christmas Time", "price": 300, "description":"Dernière génération des Airpods" }
+]
