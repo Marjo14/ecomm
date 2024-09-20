@@ -34,7 +34,7 @@ ul li {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: rgb(57, 128, 186);
@@ -76,12 +76,11 @@ ul li {
   text-align: center;
 
 }
-
 .product_card button {
   background-color: rgb(24, 145, 104);
   text-align: left;
   border-color: rgb(120, 120, 53) ;
-  border: solid salmon;
+  border: solid rgba(60, 145, 145, 0.5);
   color: black;
   padding: 5px;
   
@@ -93,5 +92,13 @@ ul li {
 .product_card .remove-button {
   margin-left: 5px; /* Ajoute un espace à gauche du bouton de suppression */
   background-color: white;
-  border-color: black;
+  border-color: rgba(60, 145, 145, 0.5);
+}
+
+.product_card .add-button:hover {
+  box-shadow: 0 4px 8px rgba(60, 145, 145, 0.5);
+}
+
+.product_card .remove-button:hover {
+  box-shadow: 0 4px 8px rgba(60, 145, 145, 0.5);
 }

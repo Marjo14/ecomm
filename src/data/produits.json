@@ -3,5 +3,16 @@
     { "id": 2, "name": "Smartphone", "price": 800, "description":"Dernière génération des Airpods" },
     { "id": 3, "name": "Headphones", "price": 150, "description":"Dernière génération des Airpods" },
     { "id": 4, "name": "Smartwatch", "price": 300, "description":"Dernière génération des Airpods" },
-    { "id": 5, "name": "Watch", "price": 300, "description":"Dernière génération des Airpods" }
+    { "id": 5, "name": "Watch", "price": 300, "description":"Dernière génération des Airpods" },
+    { "id": 6, "name": "Laptop", "price": 1200, "description":"Dernière génération des Airpods" },
+    { "id": 7, "name": "Smartphone", "price": 800, "description":"Dernière génération des Airpods" },
+    { "id": 8, "name": "Headphones", "price": 150, "description":"Dernière génération des Airpods" },
+    { "id": 9, "name": "Smartwatch", "price": 300, "description":"Dernière génération des Airpods" },
+    { "id": 10, "name": "Watch", "price": 300, "description":"Dernière génération des Airpods" },
+    { "id": 11, "name": "Laptop", "price": 1200, "description":"Dernière génération des Airpods" },
+    { "id": 12, "name": "Smartphone", "price": 800, "description":"Dernière génération des Airpods" },
+    { "id": 13, "name": "Headphones", "price": 150, "description":"Dernière génération des Airpods" },
+    { "id": 14, "name": "Smartwatch", "price": 300, "description":"Dernière génération des Airpods" },
+    { "id": 15, "name": "Watch", "price": 300, "description":"Dernière génération des Airpods" }
 ]
+
