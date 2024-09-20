@@ -13,6 +13,7 @@ const Home = () => {
                         <h3>{nouveaute.name}</h3>
                         <p>{nouveaute.description}</p>
                         <p>{nouveaute.price} €</p>
+                        
                         <p></p>
                     </div>
                 ))}

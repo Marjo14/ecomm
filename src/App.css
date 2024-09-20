@@ -76,3 +76,8 @@ ul li {
   text-align: center;
 
 }
+
+.product_card button {
+  background-color: aquamarine;
+  text-align: left;
+}
