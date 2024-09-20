@@ -78,6 +78,8 @@ ul li {
 }
 
 .product_card button {
-  background-color: aquamarine;
+  background-color: rgb(7, 85, 59);
   text-align: left;
+  border-color: rgb(120, 120, 53) solid;
+  color: white;
 }
