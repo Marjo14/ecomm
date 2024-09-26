@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const Product = ({ name, price, description }) => {
+export const Product = ({ name, price, description,id,addToCart }) => { //Props
   const [count, setCount] = useState(0); // Initialiser le count 
 
   const handleAddClick = () => { //Création variable pour incrémenter le count +1
@@ -12,6 +12,12 @@ export const Product = ({ name, price, description }) => {
     // prevCount =>  prend comme argument la valeur précédente de count (qu'on appelle ici prevCount).
 
   };
+  const product = {
+    id: id, //variable des proprs
+    name: name,
+    price: price,
+    description: description,
+  }
 
   return (
     <div className='product_card'>
@@ -19,7 +25,7 @@ export const Product = ({ name, price, description }) => {
       <p>{description}</p>
       <p>{price}</p>
       <button className="add-button" 
-        type="button" onClick={handleAddClick}>
+        type="button" onClick={()=> addToCart(product)}>
         Add to cart ({count})
       </button>
       <button className="remove-button"

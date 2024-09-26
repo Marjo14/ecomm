@@ -11,7 +11,7 @@ const Header = () => {
                     <ul>
                         <li className='header_item'><Link to="/products">Products</Link></li>
                         <li className='header_item'><Link to="/">Home</Link></li>
-                        <li className='header_item'><Link to="/basket">Basket</Link></li>
+                        <li className='header_item'><Link to="/cart">Cart</Link></li>
                     </ul>
                     
                 </nav>
